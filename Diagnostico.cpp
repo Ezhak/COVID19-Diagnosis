@@ -10,10 +10,12 @@ using namespace std;
 
 
 int main() {
-	setColor(BLACK);
-	setBackgroundColor(DARKGREY);
+	setColor(LIGHTGREEN);
+	setBackgroundColor(BLACK);
 	cls();
 	setlocale(LC_ALL, "Spanish");
+	
+	
 	int age = 0;
 	float fever = 0;
 	int option = -1;
